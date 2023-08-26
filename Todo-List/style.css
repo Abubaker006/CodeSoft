@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body{
+  
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #5A5A5A;
+}
+.header{
+  background-color: #5A5A5A;
+  width: 100%;
+  height: 5.2rem;
+  position: relative;
+}
+.header__heading-box{
+  text-align: center;
+  color: #d4d4d4;
+  font-size: 1.5rem;
+  font-weight: 200;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-bottom: 1px solid #c0c0c0;
+  display: inline-block;
+}
+.heading{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.section-note{
+  background-color: #5A5A5A;
+  width: 100%;
+   height: 50vh;
+}
+.note{
+  padding: 4rem;
+  text-align: center;
+}
+.note__input{
+  font-size: 2rem;
+  padding:2rem;
+ resize: none;
+ outline: none;
+ border: none;
+ border-radius: .5rem;
+ background-color: rgb(207, 204, 204);
+ /* color: #737373; */
+ color: #313131;
+ box-shadow: 0 1rem 1.5rem rgba(255, 255, 255, .2);
+}
+.btn-box{
+ margin-top: -2.5rem;
+  text-align: center;
+}
+.btn{
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding:1rem;
+  border-radius: 100%;
+  border: none;
+  background-color: #9494b8;
+
+  transition: all .2s ease-in-out;
+}
+.btn:hover{
+  background-color: #8282a0;
+  box-shadow: 0 2rem 3rem rgba(0,0, 0, .1);
+  transform: scale(1.1);
+}
+.btn:active{
+  transition: none;
+  transform: scale(1);
+}
+.section-list{
+  width: 100%;
+  height: auto;
+  background-color: #5A5A5A;
+}
+.unordered-List{
+  margin-left: 4rem;
+  -webkit-list-style-type: upper-roman;
+  list-style-type: circle;
+  display: inline-block;
+  border-radius: .5rem;
+
+}
+.unordered-List::after{
+    content: "";
+    clear: both;
+    display: table;
+  
+}
+.unordered-List li{
+  text-transform: capitalize;
+  font-family: cursive;
+  float: left;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgb(228, 225, 225);
+  padding: 2rem;
+  padding-left: .5rem;
+}
+
+.btn-del{
+  margin: 1rem;
+  padding: .5rem;
+  width: 2.3rem;
+}
+.del-img{
+  height: 1rem;
+}
